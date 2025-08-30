@@ -72,7 +72,9 @@ This section will start a local web server to run your Vue.js user interface and
     npm install -g @vue/cli
     ```
     * This process may take a few minutes.
-3.  npm install axios
+3.  ```bash
+    npm install axios
+    ```
 
 ### 2.3 Start and Conduct Frontend Testing
 
