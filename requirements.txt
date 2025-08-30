@@ -1,0 +1,24 @@
+# 核心AI与图像处理库
+# Core AI and Image Processing Libraries
+ultralytics
+supervision
+opencv-python-headless
+Pillow
+
+# 阿里云服务SDK
+# Alibaba Cloud Service SDKs
+oss2
+aliyun-tablestore-sdk
+
+# API请求与数据解析
+# API Request and Data Parsing
+requests_toolbelt # 用于 search-by-file 函数解析文件上传
+
+# 依赖版本锁定 (为了解决兼容性问题)
+# Pinned Dependencies (to resolve compatibility issues)
+urllib3<2.0 # 解决与函数计算环境OpenSSL版本的冲突
+cryptography==38.0.4 # 根据之前的调试，锁定版本以确保稳定
+pyOpenSSL==22.1.0 # 根据之前的调试，锁定版本
+pydantic<2 # 兼容旧版依赖
+typer==0.9.0 # 兼容旧版依赖
+click==8.1.7 # 兼容旧版依赖
